@@ -35,6 +35,9 @@ footer {
     flex-direction: column;
     align-items: center;
 }
+.sunset img {
+    max-width: 450px;
+}
 /*---Resume---*/
 .reshead {
     display: flex;
@@ -57,3 +60,4 @@ footer {
     .layout {
         flex-direction: column;
     }
+}
