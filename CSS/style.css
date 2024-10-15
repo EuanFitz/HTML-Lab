@@ -2,5 +2,20 @@ header {
     background-color:blanchedalmond;
     text-align: center;
     padding: 4px;
-    
+}
+
+#link {
+    display: flex;
+    justify-content: space-around;
+ 
+}
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+footer {
+    display: flex;
+   justify-content: center;
+
 }
