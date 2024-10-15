@@ -1,21 +1,59 @@
+body {
+    background-color: aliceblue;
+}
 header {
-    background-color:blanchedalmond;
+    background-color:rgb(95, 173, 206);
     text-align: center;
     padding: 4px;
 }
 
+header a {
+    padding: 2px;
+}
+header a:hover {
+    background-color:rgb(74, 129, 155);
+
+}
 #link {
     display: flex;
     justify-content: space-around;
  
 }
-main {
+.quote {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
 }
 footer {
     display: flex;
    justify-content: center;
 
 }
+/*---About Me---*/
+.aboutmain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/*---Resume---*/
+.reshead {
+    display: flex;
+    justify-content: space-between;
+}
+/*---Projects---*/
+.layout {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 10em;
+}
+
+.layout figure {
+    max-width: 13em;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .layout {
+        flex-direction: column;
+    }
